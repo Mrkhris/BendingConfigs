@@ -663,6 +663,10 @@ Abilities:
         will appear above nearby earth with pockets of air beneath them.
       Instructions: Simply left click while on an earthbendable block.
     Combo:
+      EarthDome:
+        Description: EarthDome allows earthbenders to surround themselves or another
+          entity in earth, temporarily preventing anything from entering or escaping
+          the dome.
       EarthPillars:
         Description: Send players and entities flying into the air and possibly stunning
           them by raising pillars of earth under their feet, dealing damage initally

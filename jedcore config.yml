@@ -107,7 +107,7 @@ Abilities:
       Description: 'To use, hold Sneak (Default: Shift) to release a strong breath
         of wind knocking your opponents back. This ability also has a longer range
         and stronger knockback while in AvatarState!'
-      Cooldown: 3000
+      Cooldown: 5000
       Duration: 3000
       Particles: 3
       AffectBlocks:
@@ -527,7 +527,7 @@ Abilities:
       Cooldown: 3000
       Range: 50
       Damage: 3.0
-      FireDuration: 2000
+      FireDuration: 500
       Controllable: false
       FireTrail: true
       CollisionRadius: 1.1
@@ -555,7 +555,7 @@ Abilities:
       Damage:
         Player: 1.0
         Mob: 2.0
-      FireDuration: 3000
+      FireDuration: 500
       Range: 10
       Avatar:
         FireEnabled: true
@@ -603,7 +603,7 @@ Abilities:
       Cooldown: 3000
       Range: 50
       FireBalls: 4
-      FireDuration: 3000
+      FireDuration: 500
       Damage: 2.0
       CollisionRadius: 0.9
       Collisions:

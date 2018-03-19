@@ -1244,6 +1244,18 @@ Storage:
     user: root
 debug: false
 ExtraAbilities:
+  NickC1211:
+    Whip:
+      Cooldown: 3000
+      Range: 20
+      Damage: 2
+      Speed: 1
+      Swim: true
+    Sprout:
+      Cooldown: 3000
+      Range: 20
+      Damage: 4
+      Speed: 1.3
   StrangeOne101:
     LavaArms:
       Cooldown: 60000
@@ -1276,7 +1288,7 @@ ExtraAbilities:
     AirSlash:
       Cooldown: 8000
       Range: 80
-      Damage: 4
+      Damage: 3
       Controllable: true
     Rekindle:
       Cooldown: 8000
@@ -1368,17 +1380,6 @@ ExtraAbilities:
       Duration: 5000
       Cooldown: 6000
       SoundVolume: 0.5
-  NickC1211:
-    Sprout:
-      Cooldown: 3000
-      Range: 20
-      Damage: 4
-      Speed: 1.3
-    Whip:
-      Cooldown: 3000
-      Range: 20
-      Damage: 2
-      Swim: true
   Finn_Bueno_:
     SeismicSense:
       Cooldown: 5000

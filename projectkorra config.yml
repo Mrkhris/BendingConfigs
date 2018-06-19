@@ -1,6 +1,6 @@
 Properties:
+  UpdateChecker: true
   BendingPreview: true
-  ImportEnabled: true
   BendingAffectFallingSand:
     Normal: true
     NormalStrengthMultiplier: 1.0
@@ -171,6 +171,7 @@ Properties:
     CanBendWithWeapons: false
   DisabledWorlds:
   - bendingshop
+  ImportEnabled: true
 Abilities:
   Avatar:
     AvatarState:
@@ -209,6 +210,8 @@ Abilities:
           Cooldown: 1500
           Damage: 4.5
           Push: 1.0
+          Range: 24
+          Radius: 3
         AirBurst:
           ChargeTime: 1000
           Damage: 3
@@ -398,9 +401,9 @@ Abilities:
       Push:
         Self: 2.5
         Entities: 3.5
-      CanFlickLevers: true
+      CanFlickLevers: false
       CanOpenDoors: true
-      CanPressButtons: true
+      CanPressButtons: false
       CanCoolLava: true
     AirBurst:
       Enabled: true
@@ -408,6 +411,7 @@ Abilities:
       PushFactor: 1.5
       ChargeTime: 1750
       Damage: 0
+      Cooldown: 0
       SneakParticles: 10
       ParticlePercentage: 50
       AnglePhi: 10
@@ -418,6 +422,7 @@ Abilities:
       Interval: 100
       Radius: 1
       Cooldown: 7000
+      Duration: 0
       MaxHeightFromGround: 7
     AirShield:
       Enabled: true
@@ -483,8 +488,8 @@ Abilities:
       AnimationSpeed: 1.0
     Tornado:
       Enabled: true
-      Cooldown: 0
-      Duration: 0
+      Cooldown: 1000
+      Duration: 20000
       Radius: 10
       Height: 20
       Range: 25
@@ -548,6 +553,7 @@ Abilities:
       FastSwim:
         Enabled: true
         Cooldown: 0
+        Duration: 0
         SpeedFactor: 0.7
       Hydrosink:
         Enabled: true
@@ -613,6 +619,8 @@ Abilities:
       Knockback: 1.75
       FormDelay: 40
       Cooldown: 500
+      Duration: 0
+      UsageCooldown: 0
       AngleIncrement: 45
     PhaseChange:
       Enabled: true
@@ -644,6 +652,7 @@ Abilities:
         Range: 5
         Radius: 2
         Cooldown: 500
+        Duration: 0
         Interval: 30
     Torrent:
       Enabled: true
@@ -686,8 +695,8 @@ Abilities:
           Damage: 10.0
           KillUser: false
         Cooldowns:
-          UsageCooldownEnabled: false
           UsageCooldown: 200
+          UsageCooldownEnabled: false
       Whip:
         MaxLength: 12
         MaxLengthWeak: 8
@@ -750,6 +759,7 @@ Abilities:
     WaterSpout:
       Enabled: true
       Cooldown: 0
+      Duration: 0
       Height: 16
       Interval: 50
       BlockSpiral: true
@@ -840,7 +850,7 @@ Abilities:
       Push: 0.3
       Cooldown: 500
       DeflectRange: 3
-      CollisionRadius: 1.5
+      CollisionRadius: 2
     EarthDome:
       Enabled: true
       Cooldown: 10000
@@ -1048,12 +1058,20 @@ Abilities:
         Particles: 12
     FireShield:
       Enabled: true
+      Shield:
+        Radius: 3
+        Duration: 0
+        Cooldown: 0
+      Disc:
+        Radius: 1.5
+        Duration: 1000
+        Cooldown: 500
+      Interval: 100
+      FireTicks: 2
       Radius: 3
       DiscRadius: 1.5
       Duration: 1000
       Cooldown: 500
-      Interval: 100
-      FireTicks: 2
     HeatControl:
       Enabled: true
       Cook:
@@ -1201,7 +1219,7 @@ Abilities:
     Paralyze:
       Enabled: true
       Cooldown: 10000
-      Duration: 500
+      Duration: 2000
     RapidPunch:
       Enabled: true
       Damage: 1
@@ -1357,10 +1375,6 @@ ExtraAbilities:
         Cooldown: 60000
         SacrificeDamage: 18
         FireTicks: 7
-  YourAverageNerd:
-    EarthWave:
-      Cooldown: 4000
-      TravelDistance: 20.0
   Sobki:
     Cleanse:
       Cooldown: 300000
@@ -1389,6 +1403,10 @@ ExtraAbilities:
       Range: 15
       UseGlass: true
       ShowOres: true
+  YourAverageNerd:
+    EarthWave:
+      Cooldown: 4000
+      TravelDistance: 20.0
   Soringaming&Moon:
     Air:
       AirJump:

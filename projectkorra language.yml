@@ -43,10 +43,6 @@ Extras:
 Commands:
   NoPermission: You do not have permission to do that.
   MustBePlayer: You must be a player to perform this action.
-  GeneralHelpLines:
-  - '&c/bending help [Ability/Command] &eDisplay help.'
-  - '&c/bending choose [Element] &eChoose an element.'
-  - '&c/bending bind [Ability] # &eBind an ability.'
   Who:
     Description: This command will tell you what element all players that are online
       are (If you don't specify a player) or give you information about the player
@@ -145,18 +141,6 @@ Commands:
     ToggledOn: You are now invincible to all bending damage and effects. Use this
       command again to disable this.
     ToggledOff: You are no longer invincible to all bending damage and effects.
-  Import:
-    Description: This command will import your old bendingPlayers.yml from the Bending
-      plugin. It will generate a convert.yml file to convert the data to be used with
-      this plugin. You can delete the file once the complete message is displayed.
-      This command should only be used ONCE.
-    Disabled: Import has been disabled in the config!
-    PreparingData: Preparing Data for import.
-    ImportStarted: Import of data started. Do NOT stop / reload your server.
-    DebugWarning: Console will print out all of the players that are imported if debug
-      mode is enabled as they import.
-    DataQueuedUp: All data has been queued up, please allow up to 5 minutes for the
-      data to complete, then reboot your server.
   Help:
     Description: This command provides information on how to use other commands in
       ProjectKorra.
@@ -184,6 +168,9 @@ Commands:
       Chi: |-
         Chiblockers focus on bare handed combat, utilizing their agility and speed to stop any bender right in their path. Although they lack the ability to bend any of the other elements, they are great in combat, and a serious threat to any bender. Chiblocking was first shown to be used by Ty Lee in Avatar: The Last Airbender, then later by members of the Equalists in The Legend of Korra.
         Chiblockers can chain their abilities into combos, type /b help ChiCombos for more information.
+      Avatar: |-
+        Avatars are the human embodiment of light and peace created through a connection with the Avatar Spirit. It is considered an Avatar's duty to master the four elements and use that power to keep balance among the four nations as well as act as the bridge between the physical and spiritual worlds.
+        Enter /b display Avatar for a list of the available avatar abilities.
     InvalidTopic: That isn't a valid help topic. Use /bending help for more information.
     Usage: 'Usage: '
   Display:
@@ -271,6 +258,22 @@ Commands:
       AlreadyHasElement: '{target} already has that element!'
       AlreadyHasSubElement: '{target} already has that subelement!'
       AlreadyHasAllElements: '{target} already has all elements!'
+  GeneralHelpLines:
+  - '&c/bending help [Ability/Command] &eDisplay help.'
+  - '&c/bending choose [Element] &eChoose an element.'
+  - '&c/bending bind [Ability] # &eBind an ability.'
+  Import:
+    Description: This command will import your old bendingPlayers.yml from the Bending
+      plugin. It will generate a convert.yml file to convert the data to be used with
+      this plugin. You can delete the file once the complete message is displayed.
+      This command should only be used ONCE.
+    Disabled: Import has been disabled in the config!
+    PreparingData: Preparing Data for import.
+    ImportStarted: Import of data started. Do NOT stop / reload your server.
+    DebugWarning: Console will print out all of the players that are imported if debug
+      mode is enabled as they import.
+    DataQueuedUp: All data has been queued up, please allow up to 5 minutes for the
+      data to complete, then reboot your server.
 DeathMessages:
   Enabled: true
   Default: '{victim} was slain by {attacker}''s {ability}'

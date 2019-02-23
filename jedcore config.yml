@@ -507,7 +507,7 @@ Abilities:
       Description: Hold Shift to focus large amounts of energy into your body, Release
         Shift to fire Combustion. Move your mouse to direct where the beam travels.
         Left-Click to detonate the beam manually
-      Damage: 4.0
+      Damage: 6.0
       FireTick: 20
       MisfireModifier: -1
       Power: 3

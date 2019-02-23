@@ -8,26 +8,26 @@ ExtraAbilities:
         Leggings: []
         Boots: []
       ItemRequirements:
+      - IRON_ORE
       - IRON_BLOCK
-      - IRON_FENCE
-      - IRON_PLATE
+      - IRON_BARS
       - IRON_TRAPDOOR
       - IRON_INGOT
       - IRON_DOOR
       Cooldown: 10000
       Uses: 10
       Grapple:
-        Range: 150
+        Range: 100
         Speed: 5.0
         PullSpeed: 2.0
         MaximumSwingAngle: 15.0
       Grab:
         Cooldown: 2000
-        Range: 60
+        Range: 40
         Speed: 5.0
         PullSpeed: 0.5
       Slam:
         Cooldown: 1500
-        Range: 60
+        Range: 40
         Speed: 5.0
-        Damage: 1.0
+        Damage: 2.0

@@ -1,7 +1,7 @@
 Settings:
   Updater:
-    Check: true
-    Notify: true
+    Check: false
+    Notify: false
 Properties:
   MobCollisions:
     Enabled: true
@@ -199,7 +199,7 @@ Abilities:
         Enabled: true
         Description: Kick your enemy up into the air then blast them away!
         Cooldown: 8000
-        Power: 5.0
+        Power: 3.0
         Range: 8
       SwiftStream:
         Enabled: true
@@ -223,7 +223,7 @@ Abilities:
         will raise and launch towards your foe!'
       Cooldown: 2000
       EarthBlocks: 10
-      Damage: 2.0
+      Damage: 4.5
       EntityCollisionRadius: 1.5
       AbilityCollisionRadius: 1.5
       Collisions:
@@ -260,6 +260,10 @@ Abilities:
           RemoveFirst: false
           RemoveSecond: true
     EarthLine:
+      PrepareCooldown: 3000
+      SourceKeepRange: 7
+      AllowChangeDirection: true
+      MaxDuration: 2500
       Enabled: true
       Description: 'To use, place your cursor over an earth-bendable block on the
         ground, then Sneak (Default: Shift) to select the block. After selecting the
@@ -271,7 +275,10 @@ Abilities:
       Range: 30
       PrepareRange: 7
       AffectingRadius: 2
-      Damage: 3
+      Damage: 3.0
+      RemovalPolicy:
+        SwappedSlots:
+          Enabled: false
     EarthPillar:
       Enabled: true
       Description: 'With this ability bound, tap Sneak (Default: Shift) on any Earthbendable
@@ -315,10 +322,12 @@ Abilities:
       SpringStiffness: 0.35
     Fissure:
       Enabled: true
-      Description: Fissure is an advanced Lavabending ability enabling a lavabender
+      Description: 'Fissure is an advanced Lavabending ability enabling a lavabender
         to tear up the ground, swallowing up any enemies. To use, simply swing at
-        an enemy and a line of lava will crack open. The crevice will automatically
-        expand to burn enemies before closing again
+        an enemy and a line of lava will crack open. Then, tap Sneak (Default: Shift)
+        to expand the crevice. The crevice has a maximum width and depth. Once the
+        crevice has reached it''s maximum width, Sneak while looking at the crevice
+        to close it!'
       Cooldown: 20000
       Duration: 5000
       MaxWidth: 3
@@ -341,23 +350,21 @@ Abilities:
         BlockDamage: true
         AdditionalMeltableBlocks:
         - COBBLESTONE
-        - LOG
-        - LOG_2
+        - OAK_LOG
+        - SPRUCE_LOG
+        - JUNGLE_LOG
+        - DARK_OAK_LOG
+        - BIRCH_LOG
+        - ACACIA_LOG
         LavaTrail: true
         TrailFlow: false
       Source:
         RegenTime: 10000
         LavaOnly: false
         Range: 4.0
-      Regen: 5000
-      SourceRegen: 10000
-      LavaSourceOnly: false
-      BlockDamage: true
-      LavaTrail: true
-      AdditionalMeltableBlocks:
-      - COBBLESTONE
-      - LOG
-      - LOG_2
+      RemovalPolicy:
+        SwappedSlots:
+          Enabled: true
     LavaFlux:
       Enabled: true
       Description: This offensive ability enables a Lavabender to create a wave of
@@ -379,10 +386,10 @@ Abilities:
       Cooldown: 7000
       MaxShots: 6
       Range: 20
-      Damage: 1.0
+      Damage: 5.0
       SourceGrabRange: 4
       SourceRegenDelay: 10000
-      FireTicks: 80
+      FireTicks: 2
     MagnetShield:
       Enabled: true
       Description: Repel any metal projectiles using a strong magnetic shield. To
@@ -410,6 +417,7 @@ Abilities:
       Cooldown: 3000
       Range: 30
       MaxHooks: 3
+      TotalHooks: 0
       RequireItems: true
     MetalShred:
       Enabled: true
@@ -433,7 +441,7 @@ Abilities:
         of blinding the target. To use, select a source of earth and click in any
         direction.
       Cooldown: 6000
-      Damage: 0.5
+      Damage: 1.0
       Waves: 5
       SourceRange: 7
       BlindChance: 10
@@ -474,27 +482,33 @@ Abilities:
         Enabled: true
         Description: Fire balls of magma at your enemy!
         MaxShots: 3
-        ImpactDamage: 5.0
+        ImpactDamage: 7.5
         SearchRange: 4
         Cooldown: 8000
-        ShotCooldown: 1500
+        ShotCooldown: 500
         RequireLavaFlow: false
         PlayerCollisions: true
         EntitySelection: true
-        SelectRange: 30.0
-        ExplosionRadius: 2.0
-        FireSpeed: 1.5
+        SelectRange: 24.0
+        ExplosionRadius: 3.0
+        FireSpeed: 2.0
         MaxDuration: 15000
         MaxDistanceFromSources: 15
-        TravelRange: 10
   Fire:
+    FirePunch:
+      Enabled: true
+      Description: This basic ability allows a Firebender to channel their energies
+        into a single punch, igniting and damaging the victim.
+      Cooldown: 4000
+      FireTicks: 2000
+      Damage: 2.0
     Combustion:
       Enabled: true
       Description: Hold Shift to focus large amounts of energy into your body, Release
         Shift to fire Combustion. Move your mouse to direct where the beam travels.
         Left-Click to detonate the beam manually
-      Damage: 6.0
-      FireTick: 100
+      Damage: 4.0
+      FireTick: 20
       MisfireModifier: -1
       Power: 3
       Range: 100
@@ -517,6 +531,7 @@ Abilities:
         zapping what ever it hits!
       Damage: 3.0
       Cooldown: 5000
+      AvatarCooldown: 500
       Duration: 1000
       SlotSwapping: false
       EntityCollisionRadius: 1.0
@@ -577,7 +592,7 @@ Abilities:
         in the direction you are looking.'
       Cooldown: 45000
       ChargeUp: 7000
-      Damage: 6.0
+      Damage: 16.0
       BlastRadius: 3.0
       SozinsComet:
         Cooldown: 30000
@@ -588,13 +603,6 @@ Abilities:
       RegenDelay: 15000
       SozinsCometOnly: true
       AvatarStateBypassComet: true
-    FirePunch:
-      Enabled: true
-      Description: This basic ability allows a Firebender to channel their energies
-        into a single punch, igniting and damaging the victim.
-      Cooldown: 4000
-      FireTicks: 2000
-      Damage: 2.0
     FireShots:
       Enabled: true
       Description: 'To use, tap Sneak (Default: Shift) to summon a FireBalls at your
@@ -604,7 +612,7 @@ Abilities:
       Range: 50
       FireBalls: 4
       FireDuration: 500
-      Damage: 2.0
+      Damage: 1.0
       CollisionRadius: 0.9
       Collisions:
         FireShield:
@@ -622,7 +630,7 @@ Abilities:
       Duration: 6000
       Speed: 0.7
       IgniteEntities: true
-      FireTicks: 60
+      FireTicks: 2
       RequiredHeight: 0.7
       PunchActivated: false
     LightningBurst:
@@ -633,6 +641,8 @@ Abilities:
         too close'
       Cooldown: 25000
       ChargeUp: 4000
+      AvatarCooldown: 1000
+      AvatarChargeUp: 1000
       Radius: 12
       Damage: 9.0
   Water:
@@ -694,7 +704,9 @@ Abilities:
       BlastDamage: 1.5
       BlastRange: 20
       MaxBlasts: 4
+      DrainTempBlocks: false
     FrostBreath:
+      FrozenWaterDuration: 10000
       Enabled: true
       Description: 'As demonstrated by Katara, a Waterbender is able to freeze their
         breath, causing anything it touches to be frozen! With this ability bound,
@@ -739,7 +751,7 @@ Abilities:
       ChargeTime: 1000
       SlowDuration: 5000
       Damage: 3.0
-      Range: 10
+      Range: 20
       Throwable: true
     IceWall:
       Enabled: true
@@ -755,11 +767,11 @@ Abilities:
       MaxWallHealth: 12
       MinWallHealth: 8
       Range: 8
-      Damage: 4
+      Damage: 4.0
       CanBreak: true
       Stackable: false
       LifeTime:
-        Enabled: false
+        Enabled: true
         Duration: 10000
       WallDamage:
         Torrent: 5
@@ -847,8 +859,6 @@ Abilities:
         Skate:
           Enabled: true
           SpeedFactor: 4
-    WaterBlast:
-      Enabled: false
   Chi:
     Backstab:
       Enabled: true

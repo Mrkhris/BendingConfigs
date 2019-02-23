@@ -1,22 +1,22 @@
 Icons:
   SubElements:
+    Plant: OAK_LEAVES
     Lightning: NETHERRACK
-    Combustion: NETHERRACK
-    Plant: LEAVES
-    Blood: STAINED_CLAY:14
-    Lava: STAINED_CLAY:1
-    Spiritual: QUARTZ_BLOCK
-    Flight: QUARTZ_BLOCK
     Ice: ICE
-    Healing: STAINED_CLAY:11
-    Sand: SAND
     Metal: IRON_BLOCK
+    Spiritual: QUARTZ_BLOCK
+    Healing: BLUE_TERRACOTTA
+    Blood: RED_TERRACOTTA
+    Flight: QUARTZ_BLOCK
+    Sand: SAND
+    Combustion: NETHERRACK
+    Lava: ORANGE_TERRACOTTA
   Elements:
-    Earth: GRASS
-    Chi: STAINED_CLAY:4
-    Water: STAINED_CLAY:11
+    Chi: YELLOW_TERRACOTTA
+    Earth: GRASS_BLOCK
     Air: QUARTZ_BLOCK
     Fire: NETHERRACK
+    Water: BLUE_TERRACOTTA
     Avatar: BEACON
 General:
   Description:
@@ -38,8 +38,8 @@ General:
 Gui:
   Item:
     Material: COMPASS
+    EnchantedGlow: true
     Damage: 0
-    EnchantedGlow: false
   RequireItem: true
   GiveMessage: Right click the compass to configure your bending!
   UserIcon:

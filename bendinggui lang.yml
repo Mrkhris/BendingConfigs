@@ -1,6 +1,6 @@
 FireBreath: Allows the user to breathe a powerful breath of fire
 IceSpike: Pulls a spike of ice up from bellow your enemy
-Flight: Allows the user to fly by holding sneak (SHIFT)
+Flight: Allows you to harness the ability to fly like Zaheer
 SwiftKick: Damages the target with a high chance of blocking their chi, if the user
   is in the air
 Combustion: Creates a fire-like projectile with their the user's mind
@@ -137,13 +137,95 @@ BloodPuppet: Allows the manipulation of mobs and players to make them damage eac
 FirePunch: Allows the user to damage and set fire to their enemy with just one punch
 AirBlade: Creates a powerful blade of air that damages mobs and players
 Combo-IceWave: Freeze your WaterWave to damage enemies that you hit!
-AirJump: Propel forward in the direction you are looking
-AirShield: Creates a whirlwind of air around the player, with a small pocket of safe
-  space in the center
-EarthDrag: Pull items on the earth around you toward you
-MetalRepair: Bend iron ingots into a fluid that melds with your iron armor or tools
-FireComet: Create a huge fireball to launch as your enemies
-Backstab: Strike a enemy in the back to block Chi and do damage
-Link: Create a energy link with a friend to heal them
-Combo-WaterRestore: Restore all water bottles in your inventory to full
-FireDisc: Throw a disc of fire in the direction you are looking
+Agility: Allows the user to dash or move wherever they're looking at.
+Vanish: Makes the user invisible and allows them to teleport.
+Possess: Allows the user to possess their target, dealing damage.
+Combo-Phase: Allows the user to go through blocks and fly in a short range.
+Strike: Makes the user strike their target, dealing damage.
+Shackle: Immobilizes its target for a short period of time.
+Intoxicate: Sacrifices health to deal negative potion effects to the target.
+Combo-Infest: Heals other Dark Spirits and the undead and hurts anything else in its
+  range.
+Orb: Plants an orb that blinds and hurts it's target.
+Alleviate: Heals the user or someone else.
+Shelter: Shields the user or a friend from other players.
+Combo-Rejuvenate: Hurts Dark Spirits and agressive mobs and heals anything else in
+  its range.
+SandSurf: Allows the user to surf on sand, making them move faster
+FireManipulation: Control of fire, allows you to block attacks and launch a stream
+  of fire
+FireSerpent: Take control of your fire, transform it into a serpent and fire it at
+  your enemy
+FireUppercut: Short range attack that knocks your enemies up
+Immolate: Sacrifice your energy and transform it into an inner fire to unleash a powerful
+  blast of fire
+Corrupt: An ancient ability known by waterbenders which allowed them to transform
+  a light spirit into a dark one
+Purify: An ancient ability known by waterbenders which allowed them to transform a
+  dark spirit into a light one
+Whip: A strong ability to quickly whip your target back, dealing damage
+Sprout: Manipulate the water within the plants to make a strong but swift plant strike
+  your enemy.
+BloodRip: An extremely dark ability used by bloodbenders to drain a targets life through
+  their blood
+Cleanse: A bloodbending technique invented by Noatak which allowed him to remove the
+  bending of any other user
+Backstab: Quickly strike the target in the back, stunning the enemy and blocking their
+  chi
+ShadowSuit: Into the shadows, hide in the darkness to conceal your location, sprinting
+  or being attacked will disable the technique and you will be uncovered
+CosmicBlast: Open your crown chakra and allow the cosmic energy to flow through you,
+  allowing you to unleash devastating power
+ElementTrap: The ability used to trap Vaatu inside the Tree of Time
+Link: An ancient technique known by Avatar Yangchen, allowed the avatar to heal others
+  with the power of cosmic energy
+Combo-EarthPillars: A defense mechanism that will trigger earth pillars to rise from
+  the ground when a player is close to you
+Combo-EarthDome: Allows you to encase yourself or other players in an earth dome to
+  prevent anything from attacking you
+Combo-FlyingKick: Allows you to leap and kick all the entities and players around
+  you
+Combo-ChiblockJab: Pretty useful when being attacked, you'll be able if you're close
+  to your opponent to chiblock a player to gain advantage in a close range fight
+Combo-WeakeningJab: Allows you to make your opponents vulnerable and more susceptible
+  to damage.
+VineManipulation: Manipulate vines to attack players or create armor for yourself
+Jab: Allows you to give multiple and fast punches in a short period of time
+NinjaStance: Allows you to move much faster and jump higher, as well as being stealth
+  just like a ninja
+AirBullets: Generates a mass of condensed air on your fist that you can shoot long
+  distances
+AirCocoon: Turns the air around you into a little bubble that will protect you from
+  any entities trying to attack you
+AirJump: Allows you to gather a big amount of air to let you release it and propel
+  you in the direction you're looking at
+AirShield: Uses the air around you to create a large dome of air that will prevent
+  mobs and players to attack you
+AirSlash: Allows you to use the air around you to cut through your opponents
+CloudBurst: Condenses the air around you to make a big ball of air which will explode
+  on contact with any entity or player
+Nimbus: Creates your own cloud you can ride to soar through the sky
+Pressure: Pressurizes the air around you into a powerful and disorienting gust of
+  wind
+DustCloud: Turns the earth close to you into a cloud of dust that will allow you to
+  seem invisible to your opponent and run away
+EarthDrag: Allows you to make the earth move smoothly any drop items or fully grown
+  crops towards you
+EarthRing: Generates a mass of earth that will spin around you until you decide to
+  shoot it towards a mob or a player
+EarthWave: Allows you to cause the ground to push players or mob in the direction
+  you look at
+SeismicSense: Allows you to use the earth around you to see what is underground
+SandBullet: When standing on sand you can use it to make a little bullet of sand you
+  can launch towards any entity
+MetalRepair: Allows you to repair any damaged iron tools, weapons or armor
+FireBlade: Creates a powerful blade of fire that damages mobs and players
+FireComet: Allows you to use Sozin's Comet power to create a your own destructive
+  comet you can launch towards entities
+FireDisc: Generates a thin and sharp disc of fire you can use to slice mobs or players
+  with
+FireJab: Useful when being in a short range fight, you can shoot towards your opponent
+  a small powerful blast of fire
+MetalCables: Control cables of metal to attack and grab enemies or to manuever in
+  the world
+EarthTrammel: Create a small wall of earth where you look

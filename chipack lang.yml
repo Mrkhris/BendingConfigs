@@ -1,0 +1,15 @@
+Abilities:
+  Jab:
+    Description: This ability allows fast paced attacking. Left clicking will activate
+      the ability, as will right clicking (has to be on an entity!), both adding a
+      point to it. It can be used a certain number of times before going on cooldown.
+  NinjaStance:
+    Description: Move super fast and sneakily like a ninja, but you deal less damage!
+Combos:
+  ChiblockJab:
+    Description: This combo allows you to chiblock a player. Does no extra damage!
+  FlyingKick:
+    Description: Leap through the air, kicking entities you may encounter along the
+      way. This combo ends when you hit the ground!
+  WeakeningJab:
+    Description: Cripple your foes! This combo makes enemies more susceptible to damage!

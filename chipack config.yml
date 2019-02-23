@@ -1,0 +1,30 @@
+Abilities:
+  Jab:
+    Enabled: true
+    Cooldown: 3000
+    MaxUses: 3
+  NinjaStance:
+    Duration: 30000
+    Enabled: true
+    Cooldown: 20000
+    Stealth:
+      Duration: 5000
+      ChargeTime: 2000
+    SpeedAmplifier: 2
+    JumpAmplifier: 4
+    DamageModifier: 0.5
+Combos:
+  ChiblockJab:
+    Enabled: true
+    Cooldown: 5000
+    Duration: 3000
+  FlyingKick:
+    Enabled: true
+    Cooldown: 4000
+    Damage: 2.0
+    LaunchPower: 2.2
+  WeakeningJab:
+    Enabled: true
+    Cooldown: 6000
+    Duration: 3000
+    Modifier: 1.5

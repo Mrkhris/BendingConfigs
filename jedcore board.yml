@@ -1,7 +1,7 @@
 Settings:
   Enabled: true
   Title: '&lSlots'
-  EmptySlot: '&8&o- Slot % -'
+  EmptySlot: '&8&o-- Slot % --'
   Combos: '&fCombos:'
   Toggle:
     'Off': '&7You have hidden the bending board.'

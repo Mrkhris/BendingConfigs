@@ -1,18 +1,4 @@
 Abilities:
-  FireDisc:
-    Damage: 2
-    Range: 25
-    Cooldown: 1500
-    Controllable: true
-    RevertCutBlocks: true
-    DropCutBlocks: false
-    Cuttable_Blocks:
-    - LOG
-    - LOG_2
-  EarthDrag:
-    Cooldown: 1000
-    PullSpeed: 0.675
-    Radius: 18
   EarthRing:
     Cooldown: 6000
     HitPoints: 5
@@ -22,7 +8,32 @@ Abilities:
     ShootSpeed: 1.7
     SpinSpeed: 8
     MaxRange: 25
+  EarthDrag:
+    CanTargetEntity: false
+    Cooldown: 1000
+    PullSpeed: 0.675
+    Radius: 18
   MetalRepair:
     Cooldown: 1000
     RepairAmount: 25
     RepairInterval: 1250
+  FireDisc:
+    Damage: 2
+    Range: 25
+    Cooldown: 1500
+    Controllable: true
+    RevertCutBlocks: true
+    DropCutBlocks: false
+    Cuttable_Blocks:
+    - ACACIA_LOG
+    - BIRCH_LOG
+    - DARK_OAK_LOG
+    - JUNGLE_LOG
+    - OAK_LOG
+    - SPRUCE_LOG
+    - STRIPPED_ACACIA_LOG
+    - STRIPPED_BIRCH_LOG
+    - STRIPPED_DARK_OAK_LOG
+    - STRIPPED_JUNGLE_LOG
+    - STRIPPED_OAK_LOG
+    - STRIPPED_SPRUCE_LOG

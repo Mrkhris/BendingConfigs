@@ -1,4 +1,5 @@
 Properties:
+  MaxPresets: 20
   DatabaseCooldowns: false
   UpdateChecker: false
   Statistics: false
@@ -144,11 +145,67 @@ Properties:
     - ANDESITE
     - GRANITE
     - DIORITE
+    - POLISHED_ANDESITE
+    - POLISHED_GRANITE
+    - POLISHED_DIORITE
     - COARSE_DIRT
     - PODZOL
     - MOSSY_COBBLESTONE
     - OBSIDIAN
     - MAGMA_BLOCK
+    - CRACKED_STONE_BRICKS
+    - MOSSY_STONE_BRICKS
+    - CHISELED_STONE_BRICKS
+    - STONE_BRICKS
+    - BLACK_CONCRETE
+    - BLUE_CONCRETE
+    - BROWN_CONCRETE
+    - CYAN_CONCRETE
+    - GRAY_CONCRETE
+    - GREEN_CONCRETE
+    - LIGHT_BLUE_CONCRETE
+    - LIGHT_GRAY_CONCRETE
+    - LIME_CONCRETE
+    - MAGENTA_CONCRETE
+    - ORANGE_CONCRETE
+    - PINK_CONCRETE
+    - PURPLE_CONCRETE
+    - RED_CONCRETE
+    - WHITE_CONCRETE
+    - YELLOW_CONCRETE
+    - BLACK_TERRACOTTA
+    - BLUE_TERRACOTTA
+    - BROWN_TERRACOTTA
+    - CYAN_TERRACOTTA
+    - GRAY_TERRACOTTA
+    - GREEN_TERRACOTTA
+    - LIGHT_BLUE_TERRACOTTA
+    - LIGHT_GRAY_TERRACOTTA
+    - LIME_TERRACOTTA
+    - MAGENTA_TERRACOTTA
+    - ORANGE_TERRACOTTA
+    - PINK_TERRACOTTA
+    - PURPLE_TERRACOTTA
+    - RED_TERRACOTTA
+    - WHITE_TERRACOTTA
+    - YELLOW_TERRACOTTA
+    - BLACK_GLAZED_TERRACOTTA
+    - BLUE_GLAZED_TERRACOTTA
+    - BROWN_GLAZED_TERRACOTTA
+    - CYAN_GLAZED_TERRACOTTA
+    - GRAY_GLAZED_TERRACOTTA
+    - GREEN_GLAZED_TERRACOTTA
+    - LIGHT_BLUE_GLAZED_TERRACOTTA
+    - LIGHT_GRAY_GLAZED_TERRACOTTA
+    - LIME_GLAZED_TERRACOTTA
+    - MAGENTA_GLAZED_TERRACOTTA
+    - ORANGE_GLAZED_TERRACOTTA
+    - PINK_GLAZED_TERRACOTTA
+    - PURPLE_GLAZED_TERRACOTTA
+    - RED_GLAZED_TERRACOTTA
+    - WHITE_GLAZED_TERRACOTTA
+    - YELLOW_GLAZED_TERRACOTTA
+    - BRICKS
     MetalBlocks:
     - IRON_ORE
     - GOLD_ORE
@@ -156,14 +213,42 @@ Properties:
     - IRON_BLOCK
     - GOLD_BLOCK
     - QUARTZ_BLOCK
+    - QUARTZ_PILLAR
+    - QUARTZ_SLAB
+    - QUARTZ_STAIRS
+    - CHISELED_QUARTZ_BLOCK
     SandBlocks:
     - SOUL_SAND
     - SAND
     - SANDSTONE
+    - SMOOTH_SANDSTONE
+    - CHISELED_SANDSTONE
+    - CUT_SANDSTONE
     - SANDSTONE_SLAB
+    - SANDSTONE_STAIRS
     - RED_SAND
     - RED_SANDSTONE
+    - CHISELED_RED_SANDSTONE
+    - CUT_RED_SANDSTONE
+    - SMOOTH_RED_SANDSTONE
     - RED_SANDSTONE_SLAB
+    - RED_SANDSTONE_STAIRS
+    - BLACK_CONCRETE_POWDER
+    - BLUE_CONCRETE_POWDER
+    - BROWN_CONCRETE_POWDER
+    - CYAN_CONCRETE_POWDER
+    - GRAY_CONCRETE_POWDER
+    - GREEN_CONCRETE_POWDER
+    - LIGHT_BLUE_CONCRETE_POWDER
+    - LIGHT_GRAY_CONCRETE_POWDER
+    - LIME_CONCRETE_POWDER
+    - MAGENTA_CONCRETE_POWDER
+    - ORANGE_CONCRETE_POWDER
+    - PINK_CONCRETE_POWDER
+    - PURPLE_CONCRETE_POWDER
+    - RED_CONCRETE_POWDER
+    - WHITE_CONCRETE_POWDER
+    - YELLOW_CONCRETE_POWDER
     MetalPowerFactor: 1.5
     PlaySound: true
     EarthSound:
@@ -1235,6 +1320,7 @@ ExtraAbilities:
       WallHeight: 3
   xNuminousx:
     FireJab:
+      HitRadius: 1.3
       Cooldown: 5000
       Range: 10
       Speed: 1.2
@@ -1333,8 +1419,8 @@ ExtraAbilities:
       StageAddDuration: 0
     AirSlash:
       Cooldown: 8000
-      Range: 80
-      Damage: 4
+      Range: 60
+      Damage: 3
       Controllable: true
   EmeraldJelly:
     Air:
@@ -1356,11 +1442,11 @@ ExtraAbilities:
         Damage: 10
         Range: 45
         Cooldown: 10000
-        SacrificeDamage: 18
+        SacrificeDamage: 19
         FireTicks: 2
   _Hetag1216_:
     SandBullet:
-      Cooldown: 2000
+      Cooldown: 6000
       Range: 60
       Speed: 1.6
       Damage: 5

@@ -846,7 +846,7 @@ Abilities:
         AnimationSpeed: 3
         PlantSource: true
         RequireAdjacentPlants: false
-        BottleSource: false
+        BottleSource: true
         AbilityCollisionRadius: 1.6
         EntityCollisionRadius: 1.6
         Collisions:

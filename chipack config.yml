@@ -6,7 +6,7 @@ Abilities:
   NinjaStance:
     Duration: 30000
     Enabled: true
-    Cooldown: 20000
+    Cooldown: 5000
     Stealth:
       Duration: 5000
       ChargeTime: 2000

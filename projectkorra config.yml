@@ -106,8 +106,8 @@ Properties:
     - MOSSY_COBBLESTONE
     SnowBlocks:
     - SNOW
-    NightFactor: 1.5
-    FullMoonFactor: 1.75
+    NightFactor: 1.25
+    FullMoonFactor: 1.5
     PlaySound: true
     WaterSound:
       Sound: BLOCK_WATER_AMBIENT
@@ -1246,7 +1246,7 @@ Abilities:
       Cooldown: 15000
     AcrobatStance:
       Enabled: true
-      Cooldown: 20000
+      Cooldown: 5000
       Duration: 30000
       ChiBlockBoost: 3
       Speed: 3
@@ -1272,7 +1272,7 @@ Abilities:
       Duration: 12
     WarriorStance:
       Enabled: true
-      Cooldown: 20000
+      Cooldown: 5000
       Duration: 30000
       Strength: 1
       Resistance: -3
@@ -1320,7 +1320,7 @@ ExtraAbilities:
       WallHeight: 3
   xNuminousx:
     FireJab:
-      HitRadius: 1.3
+      HitRadius: 0.5
       Cooldown: 5000
       Range: 10
       Speed: 1.2
@@ -1441,7 +1441,7 @@ ExtraAbilities:
       Immolate:
         Damage: 10
         Range: 45
-        Cooldown: 10000
+        Cooldown: 30000
         SacrificeDamage: 19
         FireTicks: 2
   _Hetag1216_:
@@ -1520,7 +1520,7 @@ ExtraAbilities:
         ExtinguishPlayers: true
   Finn_Bueno_:
     SeismicSense:
-      Cooldown: 5000
+      Cooldown: 10000
       ChargeTime: 4000
       Duration: 5000
       CastDuration: 2500

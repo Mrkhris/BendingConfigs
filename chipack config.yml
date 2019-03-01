@@ -21,7 +21,7 @@ Combos:
   FlyingKick:
     Enabled: true
     Cooldown: 4000
-    Damage: 2.0
+    Damage: 5.0
     LaunchPower: 2.2
   WeakeningJab:
     Enabled: true

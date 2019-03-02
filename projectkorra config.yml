@@ -844,7 +844,7 @@ Abilities:
       Damage: 1.0
       Range: 25
       SelectRange: 16
-      CollisionRadius: 1.8
+      CollisionRadius: 0.8
       DeflectRange: 3
       Speed: 35
       Knockback: 0.3
@@ -926,7 +926,7 @@ Abilities:
       Push: 0.3
       Cooldown: 500
       DeflectRange: 3
-      CollisionRadius: 2.0
+      CollisionRadius: 0.8
     EarthDome:
       Enabled: true
       Cooldown: 10000
@@ -1441,12 +1441,12 @@ ExtraAbilities:
       Immolate:
         Damage: 10
         Range: 45
-        Cooldown: 30000
+        Cooldown: 60000
         SacrificeDamage: 19
         FireTicks: 2
   _Hetag1216_:
     SandBullet:
-      Cooldown: 6000
+      Cooldown: 2000
       Range: 60
       Speed: 1.6
       Damage: 5
@@ -1475,21 +1475,13 @@ ExtraAbilities:
       Damage: 5
       DamageRadius: 1.8
       DestroySource: true
-    AirBullet:
+    AirBullets:
       Cooldown: 5000
       Range: 60.0
       ChargeTime: 3000
       Damage: 3.0
       MaxBullets: 3
-      MoveSpeed: 2.0
-      FireBulletCooldown: 200
-    AirBullets:
-      Cooldown: 5000
-      Range: 40.0
-      ChargeTime: 3000
-      Damage: 3.0
-      MaxBullets: 3
-      MoveSpeed: 2.0
+      MoveSpeed: 2.2
       FireBulletCooldown: 200
   YourAverageNerd:
     EarthWave:

@@ -925,7 +925,7 @@ Abilities:
       Revert: true
       Damage: 3
       Push: 0.3
-      Cooldown: 500
+      Cooldown: 1500
       DeflectRange: 3
       CollisionRadius: 0.8
     EarthDome:

@@ -222,14 +222,14 @@ Abilities:
         SwitchPercent: 0.33
         Enabled: true
         Cooldown: 5000
-        Duration: 10000
-        Range: 10
+        Duration: 6000
+        Range: 20
         SetElement: true
       Corrupt:
         SwitchPercent: 0.33
         Damage: 7
         Enabled: true
         Cooldown: 5000
-        Duration: 10000
-        Range: 10
+        Duration: 6000
+        Range: 20
         SetElement: true

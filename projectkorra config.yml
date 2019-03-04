@@ -38,7 +38,7 @@ Properties:
     BentoBox: false
     CacheBlockTime: 5000
   Air:
-    CanBendWithWeapons: false
+    CanBendWithWeapons: true
     Particles: smoke
     PlaySound: true
     Sound:
@@ -47,7 +47,7 @@ Properties:
       Pitch: 2
   Water:
     DynamicSourcing: true
-    CanBendWithWeapons: false
+    CanBendWithWeapons: true
     IceBlocks:
     - ICE
     - PACKED_ICE
@@ -124,7 +124,7 @@ Properties:
     RevertEarthbending: true
     SafeRevert: true
     RevertCheckTime: 60000
-    CanBendWithWeapons: false
+    CanBendWithWeapons: true
     EarthBlocks:
     - DIRT
     - MYCELIUM
@@ -205,6 +205,7 @@ Properties:
     - RED_GLAZED_TERRACOTTA
     - WHITE_GLAZED_TERRACOTTA
     - YELLOW_GLAZED_TERRACOTTA
+    - TERRACOTTA
     - BRICKS
     MetalBlocks:
     - IRON_ORE
@@ -268,7 +269,7 @@ Properties:
       Volume: 1
       Pitch: 1
   Fire:
-    CanBendWithWeapons: false
+    CanBendWithWeapons: true
     DayFactor: 1.25
     PlaySound: true
     FireGriefing: false
@@ -286,7 +287,7 @@ Properties:
       Volume: 1
       Pitch: 0
   Chi:
-    CanBendWithWeapons: false
+    CanBendWithWeapons: true
   DisabledWorlds:
   - bendingshop
 Abilities:
@@ -1445,6 +1446,24 @@ ExtraAbilities:
         SacrificeDamage: 19
         FireTicks: 2
   _Hetag1216_:
+    WaterEnergy:
+      Cooldown: 1000
+      Range: 20
+      ChargeTime: 3000
+      Damage: 4
+      Speed: 1
+    SpiritualEnergy:
+      Cooldown: 500
+      Range: 40
+      ChargeTime: 3000
+      Damage: 6
+      Knockback: 0.3
+    Restore:
+      Cooldown: 30000
+      AvatarOnly: true
+      RespectRegion: true
+      PlaySound: true
+      BroadcastMessage: '&b&l%target%''s &e&lbending was restored by &b&l%caster%&e&l!'
     SandBullet:
       Cooldown: 2000
       Range: 60
@@ -1488,6 +1507,10 @@ ExtraAbilities:
       Cooldown: 4000
       TravelDistance: 20.0
   NickC1211:
+    PlantBlast:
+      Cooldown: 1000
+      Range: 30
+      Damage: 2
     Whip:
       Cooldown: 2000
       Range: 14

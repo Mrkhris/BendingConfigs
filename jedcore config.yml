@@ -590,18 +590,18 @@ Abilities:
         the ability up. Once the ability is charged, a large mass of particles will
         follow your cursor, until you release sneak, launching the great ball of fire
         in the direction you are looking.'
-      Cooldown: 45000
+      Cooldown: 15000
       ChargeUp: 7000
       Damage: 16.0
-      BlastRadius: 3.0
+      BlastRadius: 5.0
       SozinsComet:
-        Cooldown: 30000
+        Cooldown: 3000
         ChargeUp: 5000
-        Damage: 12.0
+        Damage: 16.0
         BlastRadius: 5.0
       Range: 50
       RegenDelay: 15000
-      SozinsCometOnly: true
+      SozinsCometOnly: false
       AvatarStateBypassComet: true
     FireShots:
       Enabled: true

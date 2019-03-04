@@ -98,7 +98,7 @@ WallOfFire: Creates wall of fire that blocks all incoming projectiles and mobs
 LavaFlow: Turns earth into a pool or lava or creates a ring of lava around the user
 Fissure: Creates a line of lava that can swallow up mobs
 Combo-Maelstrom: Suck everyone and everything up in a deep whirlpool!
-PlantBlast: Allows the user to blast quick, plant projectiles at their target
+PlantBlast: Allows the user to throw plants at their target
 Combo-AirSweep: Create a sweeping current of air that can sweep enemies off their
   feet!
 FireShots: Allows the user to cast multiple and short fireballs towards a target
@@ -229,3 +229,7 @@ FireJab: Useful when being in a short range fight, you can shoot towards your op
 MetalCables: Control cables of metal to attack and grab enemies or to manuever in
   the world
 EarthTrammel: Create a small wall of earth where you look
+SpiritualEnergy: Combine dark and light energies to unleash a powerful blast
+Restore: Use the avatar state to restore a players bending if they were Cleansed
+WaterEnergy: Combine Spiritual energy with water to launch a concentrated intense
+  flow

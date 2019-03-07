@@ -496,8 +496,8 @@ Abilities:
       Factor: 0.3
       AirAgility:
         Enabled: true
-        JumpPower: 3
-        SpeedPower: 2
+        JumpPower: 2
+        SpeedPower: 1
       AirSaturation:
         Enabled: true
       GracefulDescent:
@@ -550,7 +550,7 @@ Abilities:
       Particles: 5
     AirSpout:
       Enabled: true
-      Cooldown: 0
+      Cooldown: 5000
       Duration: 0
       Height: 16
       Interval: 100
@@ -1369,6 +1369,7 @@ ExtraAbilities:
       Cooldown: 6000
       SoundVolume: 0.5
     Cleanse:
+      TargetMaxHealth: 8
       Cooldown: 300000
       Duration: 30000
       CanCleanseAvatar: false
@@ -1419,9 +1420,9 @@ ExtraAbilities:
       CrushChargeTime: 2000
       StageAddDuration: 0
     AirSlash:
-      Cooldown: 8000
-      Range: 60
-      Damage: 3
+      Cooldown: 7000
+      Range: 50
+      Damage: 2
       Controllable: true
   EmeraldJelly:
     Air:
@@ -1500,7 +1501,7 @@ ExtraAbilities:
       ChargeTime: 3000
       Damage: 3.0
       MaxBullets: 3
-      MoveSpeed: 2.2
+      MoveSpeed: 3.0
       FireBulletCooldown: 200
   YourAverageNerd:
     EarthWave:

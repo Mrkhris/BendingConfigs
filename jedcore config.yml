@@ -88,7 +88,7 @@ Abilities:
       Enabled: true
       Description: With this ability bound, Left-Click to shoot a strong blade of
         air at your targets doing some damage!
-      Cooldown: 6000
+      Cooldown: 4000
       Range: 30.0
       Damage: 3.0
       EntityCollisionRadius: 1.0

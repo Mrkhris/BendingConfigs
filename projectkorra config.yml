@@ -1422,7 +1422,7 @@ ExtraAbilities:
     AirSlash:
       Cooldown: 7000
       Range: 50
-      Damage: 2
+      Damage: 3
       Controllable: true
   EmeraldJelly:
     Air:

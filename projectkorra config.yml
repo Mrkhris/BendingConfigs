@@ -1435,7 +1435,7 @@ ExtraAbilities:
         CoolLava: true
     Fire:
       FireSerpent:
-        Damage: 6
+        Damage: 4
         Cooldown: 60000
         ChargeTime: 6000
         Range: 50

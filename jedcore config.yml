@@ -592,7 +592,7 @@ Abilities:
         in the direction you are looking.'
       Cooldown: 15000
       ChargeUp: 7000
-      Damage: 16.0
+      Damage: 10.0
       BlastRadius: 5.0
       SozinsComet:
         Cooldown: 3000

@@ -90,7 +90,7 @@ Abilities:
         air at your targets doing some damage!
       Cooldown: 4000
       Range: 30.0
-      Damage: 3.0
+      Damage: 2.0
       EntityCollisionRadius: 1.0
       AbilityCollisionRadius: 1.0
       Collisions:

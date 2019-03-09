@@ -9,7 +9,7 @@ Properties:
     Enabled: true
   PerWorldConfig: true
   FireTickMethod: larger
-  LogDebug: false
+  LogDebug: true
   ChiRestrictor:
     Enabled: true
     ResetCooldown: true
@@ -94,10 +94,8 @@ Abilities:
       EntityCollisionRadius: 1.0
       AbilityCollisionRadius: 1.0
       Collisions:
-        FireBlast:
+        -small-:
           Enabled: true
-          RemoveFirst: true
-          RemoveSecond: true
         FireBlastCharged:
           Enabled: true
           RemoveFirst: true
@@ -150,18 +148,8 @@ Abilities:
       EntityCollisionRadius: 1.0
       AbilityCollisionRadius: 1.0
       Collisions:
-        FireBlast:
+        -small-:
           Enabled: true
-          RemoveFirst: true
-          RemoveSecond: false
-        FireBlastCharged:
-          Enabled: true
-          RemoveFirst: true
-          RemoveSecond: false
-        AirBlade:
-          Enabled: true
-          RemoveFirst: true
-          RemoveSecond: false
     Meditate:
       Enabled: true
       Description: 'Hold Sneak (Default: Shift) to start meditating. After you have
@@ -194,6 +182,9 @@ Abilities:
       AbilityCollisionRadius: 1.3
       Range: 20
       ChargeSwapping: true
+      Collisions:
+        -large-:
+          Enabled: true
     AirCombo:
       AirSlam:
         Enabled: true
@@ -208,6 +199,9 @@ Abilities:
         DragFactor: 1.5
         Duration: 2000
         Cooldown: 6000
+        Collisions:
+          -large-:
+            Enabled: true
   Earth:
     EarthArmor:
       Enabled: false
@@ -227,38 +221,8 @@ Abilities:
       EntityCollisionRadius: 1.5
       AbilityCollisionRadius: 1.5
       Collisions:
-        FireBlast:
+        -large-:
           Enabled: true
-          RemoveFirst: false
-          RemoveSecond: true
-        EarthBlast:
-          Enabled: true
-          RemoveFirst: false
-          RemoveSecond: true
-        WaterManipulation:
-          Enabled: true
-          RemoveFirst: false
-          RemoveSecond: true
-        AirSwipe:
-          Enabled: true
-          RemoveFirst: false
-          RemoveSecond: true
-        Combustion:
-          Enabled: true
-          RemoveFirst: false
-          RemoveSecond: true
-        WaterSpout:
-          Enabled: true
-          RemoveFirst: false
-          RemoveSecond: true
-        AirSpout:
-          Enabled: true
-          RemoveFirst: false
-          RemoveSecond: true
-        AirWheel:
-          Enabled: true
-          RemoveFirst: false
-          RemoveSecond: true
     EarthLine:
       PrepareCooldown: 3000
       SourceKeepRange: 7
@@ -279,6 +243,9 @@ Abilities:
       RemovalPolicy:
         SwappedSlots:
           Enabled: false
+      Collisions:
+        -small-:
+          Enabled: true
     EarthPillar:
       Enabled: true
       Description: 'With this ability bound, tap Sneak (Default: Shift) on any Earthbendable
@@ -301,6 +268,9 @@ Abilities:
       MaxShards: 3
       AbilityCollisionRadius: 2.0
       EntityCollisionRadius: 1.4
+      Collisions:
+        -small-:
+          Enabled: true
     EarthSurf:
       Enabled: true
       Description: This ability allows an earth bender to ride up on a wave of earth,
@@ -365,6 +335,9 @@ Abilities:
       RemovalPolicy:
         SwappedSlots:
           Enabled: true
+      Collisions:
+        -small-:
+          Enabled: true
     LavaFlux:
       Enabled: true
       Description: This offensive ability enables a Lavabender to create a wave of
@@ -390,6 +363,9 @@ Abilities:
       SourceGrabRange: 4
       SourceRegenDelay: 10000
       FireTicks: 2
+      Collisions:
+        -small-:
+          Enabled: true
     MagnetShield:
       Enabled: true
       Description: Repel any metal projectiles using a strong magnetic shield. To
@@ -468,6 +444,9 @@ Abilities:
       SourceRange: 8
       Range: 30
       MaxSandBlocks: 10
+      Collisions:
+        -small-:
+          Enabled: true
     EarthCombo:
       Crevice:
         Enabled: true
@@ -494,6 +473,9 @@ Abilities:
         FireSpeed: 2.0
         MaxDuration: 15000
         MaxDistanceFromSources: 15
+        Collisions:
+          -small-:
+            Enabled: true
   Fire:
     FirePunch:
       Enabled: true
@@ -502,6 +484,9 @@ Abilities:
       Cooldown: 4000
       FireTicks: 2000
       Damage: 2.0
+      Collisions:
+        -small-:
+          Enabled: true
     Combustion:
       Enabled: true
       Description: Hold Shift to focus large amounts of energy into your body, Release
@@ -525,6 +510,9 @@ Abilities:
       RemovalPolicy:
         SwappedSlots:
           Enabled: false
+      Collisions:
+        -large-:
+          Enabled: true
     Discharge:
       Enabled: true
       Description: Left-Click to shoot bolts of electricity out of your fingertips
@@ -547,6 +535,8 @@ Abilities:
       FireTrail: true
       CollisionRadius: 1.1
       Collisions:
+        -small-:
+          Enabled: true
         FireShield:
           Enabled: true
           RemoveFirst: true
@@ -615,6 +605,8 @@ Abilities:
       Damage: 1.0
       CollisionRadius: 0.9
       Collisions:
+        -small-:
+          Enabled: true
         FireShield:
           Enabled: true
           RemoveFirst: true
@@ -850,10 +842,8 @@ Abilities:
         AbilityCollisionRadius: 1.6
         EntityCollisionRadius: 1.6
         Collisions:
-          FireShield:
-            Enabled: false
-            RemoveFirst: true
-            RemoveSecond: false
+          -small-:
+            Enabled: true
     Ice:
       Passive:
         Skate:

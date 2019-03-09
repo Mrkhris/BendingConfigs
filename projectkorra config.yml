@@ -1441,11 +1441,11 @@ ExtraAbilities:
         Range: 50
         Duration: 500000
       Immolate:
-        Damage: 10
+        Damage: 4
         Range: 45
         Cooldown: 60000
-        SacrificeDamage: 19
-        FireTicks: 2
+        SacrificeDamage: 10
+        FireTicks: 9
   _Hetag1216_:
     WaterEnergy:
       Cooldown: 1000

@@ -414,8 +414,8 @@ Abilities:
           IsAvatarStateToggle: false
         Lightning:
           ChargeTime: 1500
-          Damage: 6
-          Cooldown: 1000
+          Damage: 9
+          Cooldown: 4000
         FireBurst:
           ChargeTime: 1000
           Damage: 3
@@ -1164,12 +1164,12 @@ Abilities:
       LightThreshold: 7
     Lightning:
       Enabled: true
-      Damage: 4.0
-      Range: 20.0
+      Damage: 8.0
+      Range: 40.0
       ChargeTime: 2500
-      Cooldown: 500
-      StunChance: 0.2
-      StunDuration: 30.0
+      Cooldown: 5000
+      StunChance: 0.8
+      StunDuration: 6.0
       MaxArcAngle: 2.5
       SubArcChance: 0.00125
       ChainArcRange: 6.0

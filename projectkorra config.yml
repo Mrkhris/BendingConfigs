@@ -1420,8 +1420,8 @@ ExtraAbilities:
       CrushChargeTime: 2000
       StageAddDuration: 0
     AirSlash:
-      Cooldown: 7000
-      Range: 50
+      Cooldown: 6000
+      Range: 40
       Damage: 3
       Controllable: true
   EmeraldJelly:

@@ -94,6 +94,10 @@ Abilities:
       EntityCollisionRadius: 1.0
       AbilityCollisionRadius: 1.0
       Collisions:
+        FireBlast:
+          Enabled: true
+          RemoveFirst: true
+          RemoveSecond: true
         -small-:
           Enabled: true
         FireBlastCharged:
@@ -148,6 +152,18 @@ Abilities:
       EntityCollisionRadius: 1.0
       AbilityCollisionRadius: 1.0
       Collisions:
+        FireBlast:
+          Enabled: true
+          RemoveFirst: true
+          RemoveSecond: false
+        FireBlastCharged:
+          Enabled: true
+          RemoveFirst: true
+          RemoveSecond: false
+        AirBlade:
+          Enabled: true
+          RemoveFirst: true
+          RemoveSecond: false
         -small-:
           Enabled: true
     Meditate:
@@ -221,6 +237,38 @@ Abilities:
       EntityCollisionRadius: 1.5
       AbilityCollisionRadius: 1.5
       Collisions:
+        FireBlast:
+          Enabled: true
+          RemoveFirst: false
+          RemoveSecond: true
+        EarthBlast:
+          Enabled: true
+          RemoveFirst: false
+          RemoveSecond: true
+        WaterManipulation:
+          Enabled: true
+          RemoveFirst: false
+          RemoveSecond: true
+        AirSwipe:
+          Enabled: true
+          RemoveFirst: false
+          RemoveSecond: true
+        Combustion:
+          Enabled: true
+          RemoveFirst: false
+          RemoveSecond: true
+        WaterSpout:
+          Enabled: true
+          RemoveFirst: false
+          RemoveSecond: true
+        AirSpout:
+          Enabled: true
+          RemoveFirst: false
+          RemoveSecond: true
+        AirWheel:
+          Enabled: true
+          RemoveFirst: false
+          RemoveSecond: true
         -small-:
           Enabled: true
     EarthLine:
@@ -806,8 +854,8 @@ Abilities:
         MaxRange: 40
         MinRange: 8
         Trail: 80
-        BottleSource: false
-        PlantSource: false
+        BottleSource: true
+        PlantSource: true
         RemoveOnAnyDamage: false
         Size:
           Normal: 1
@@ -842,6 +890,10 @@ Abilities:
         AbilityCollisionRadius: 1.6
         EntityCollisionRadius: 1.6
         Collisions:
+          FireShield:
+            Enabled: false
+            RemoveFirst: true
+            RemoveSecond: false
           -small-:
             Enabled: true
     Ice:

@@ -17,17 +17,17 @@ ExtraAbilities:
       Cooldown: 10000
       Uses: 10
       Grapple:
-        Range: 100
+        Range: 60
         Speed: 5.0
         PullSpeed: 2.0
         MaximumSwingAngle: 15.0
       Grab:
         Cooldown: 2000
-        Range: 40
+        Range: 25
         Speed: 5.0
         PullSpeed: 0.5
       Slam:
         Cooldown: 1500
-        Range: 40
+        Range: 25
         Speed: 5.0
         Damage: 2.0

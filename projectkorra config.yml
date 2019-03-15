@@ -66,7 +66,6 @@ Properties:
     - JUNGLE_LEAVES
     - OAK_LEAVES
     - SPRUCE_LEAVES
-    - DEAD_BUSH
     - ORANGE_TULIP
     - PINK_TULIP
     - RED_TULIP
@@ -103,7 +102,6 @@ Properties:
     - GRASS
     - TALL_GRASS
     - CARVED_PUMPKIN
-    - MOSSY_COBBLESTONE
     SnowBlocks:
     - SNOW
     NightFactor: 1.25
@@ -414,7 +412,7 @@ Abilities:
           IsAvatarStateToggle: false
         Lightning:
           ChargeTime: 1500
-          Damage: 9
+          Damage: 8
           Cooldown: 4000
         FireBurst:
           ChargeTime: 1000
@@ -515,7 +513,7 @@ Abilities:
         Self: 2.5
         Entities: 3.5
       CanFlickLevers: false
-      CanOpenDoors: true
+      CanOpenDoors: false
       CanPressButtons: false
       CanCoolLava: true
     AirBurst:
@@ -888,7 +886,7 @@ Abilities:
       Cooldown: 10000
   Earth:
     Passive:
-      Duration: 2500
+      Duration: 8900
       DensityShift:
         Enabled: true
       FerroControl:
@@ -1164,7 +1162,7 @@ Abilities:
       LightThreshold: 7
     Lightning:
       Enabled: true
-      Damage: 8.0
+      Damage: 6.0
       Range: 40.0
       ChargeTime: 2500
       Cooldown: 5000

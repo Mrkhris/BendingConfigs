@@ -1,12 +1,12 @@
 Abilities:
   EarthRing:
-    Cooldown: 6000
+    Cooldown: 3000
     HitPoints: 5
     GrabRadius: 4
-    ShotDamage: 2
+    ShotDamage: 4
     SpinDamage: 1
     ShootSpeed: 1.7
-    SpinSpeed: 8
+    SpinSpeed: 6
     MaxRange: 25
   EarthDrag:
     CanTargetEntity: false

@@ -1449,7 +1449,7 @@ ExtraAbilities:
       Cooldown: 1000
       Range: 20
       ChargeTime: 3000
-      Damage: 4
+      Damage: 3
       Speed: 1
     SpiritualEnergy:
       Cooldown: 500

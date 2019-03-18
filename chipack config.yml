@@ -20,7 +20,7 @@ Combos:
     Duration: 3000
   FlyingKick:
     Enabled: true
-    Cooldown: 4000
+    Cooldown: 5000
     Damage: 5.0
     LaunchPower: 2.2
   WeakeningJab:

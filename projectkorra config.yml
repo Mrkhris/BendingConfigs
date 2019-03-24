@@ -14,7 +14,7 @@ Properties:
   SeaLevel: 62
   ChooseCooldown: 0
   HorizontalCollisionPhysics:
-    Enabled: true
+    Enabled: false
     DamageOnBarrierBlock: false
     WallDamageMinimumDistance: 5.0
     WallDamageCap: 5.0
@@ -104,6 +104,7 @@ Properties:
     - CARVED_PUMPKIN
     SnowBlocks:
     - SNOW
+    - SNOW_BLOCK
     NightFactor: 1.25
     FullMoonFactor: 1.5
     PlaySound: true
@@ -731,7 +732,7 @@ Abilities:
         Knockback: 1
         Knockup: 0.2
         MaxFreezeRadius: 7
-        Cooldown: 500
+        Cooldown: 3000
         Interval: 30
         IceRevertTime: 60000
       Wall:
@@ -1538,6 +1539,6 @@ ExtraAbilities:
       ChargeTime: 4000
       Duration: 5000
       CastDuration: 2500
-      Range: 15
+      Range: 10
       UseGlass: true
       ShowOres: true

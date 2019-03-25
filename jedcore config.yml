@@ -232,7 +232,7 @@ Abilities:
         ideal for defense. To use, Sneak (Default: Shift) at an earth source and it
         will raise and launch towards your foe!'
       Cooldown: 2000
-      EarthBlocks: 10
+      EarthBlocks: 5
       Damage: 4.5
       EntityCollisionRadius: 1.5
       AbilityCollisionRadius: 1.5
@@ -404,7 +404,7 @@ Abilities:
         Use Sneak(Deafult: Shift) while looking at a pool of lava infront of you,
         then Left-Click to splash the lava at your target. It can be used in rapid
         succession to create multiple streams of lava!'
-      Cooldown: 7000
+      Cooldown: 10000
       MaxShots: 6
       Range: 20
       Damage: 5.0

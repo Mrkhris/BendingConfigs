@@ -14,7 +14,7 @@ Properties:
   SeaLevel: 62
   ChooseCooldown: 0
   HorizontalCollisionPhysics:
-    Enabled: false
+    Enabled: true
     DamageOnBarrierBlock: false
     WallDamageMinimumDistance: 5.0
     WallDamageCap: 5.0
@@ -1112,7 +1112,7 @@ Abilities:
       ShowGliding: false
       Enabled: true
       Speed: 0.8
-      Duration: 4000
+      Duration: 2800
       Cooldown: 7000
     FireManipulation:
       Enabled: true
@@ -1498,9 +1498,9 @@ ExtraAbilities:
       Cooldown: 5000
       Range: 60.0
       ChargeTime: 3000
-      Damage: 3.0
+      Damage: 4.0
       MaxBullets: 3
-      MoveSpeed: 3.0
+      MoveSpeed: 3.6
       FireBulletCooldown: 200
   YourAverageNerd:
     EarthWave:

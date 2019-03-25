@@ -4,7 +4,7 @@ Abilities:
     HitPoints: 5
     GrabRadius: 4
     ShotDamage: 4
-    SpinDamage: 1
+    SpinDamage: 3
     ShootSpeed: 1.7
     SpinSpeed: 6
     MaxRange: 25

@@ -1,5 +1,5 @@
 Properties:
-  MaxPresets: 20
+  MaxPresets: 100
   DatabaseCooldowns: false
   UpdateChecker: false
   Statistics: false
@@ -950,7 +950,9 @@ Abilities:
       Radius: 0.25
       Revert: true
       DropLootIfNotRevert: false
-      Interval: 30
+      IgnoreOres: true
+      Interval: 1
+      BlocksPerInterval: 3
     Extraction:
       Enabled: true
       SelectRange: 5
@@ -1359,7 +1361,7 @@ ExtraAbilities:
     Pressure:
       Cooldown: 2000
       Range: 30
-      Damage: 5
+      Damage: 8
   Sobki:
     Link:
       Range: 12
@@ -1447,13 +1449,13 @@ ExtraAbilities:
         FireTicks: 9
   _Hetag1216_:
     WaterEnergy:
-      Cooldown: 1000
+      Cooldown: 2000
       Range: 20
       ChargeTime: 3000
       Damage: 3
       Speed: 1
     SpiritualEnergy:
-      Cooldown: 500
+      Cooldown: 2000
       Range: 40
       ChargeTime: 3000
       Damage: 6

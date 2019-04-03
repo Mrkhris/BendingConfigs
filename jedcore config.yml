@@ -231,7 +231,7 @@ Abilities:
       Description: 'This move enables an earthbender to create a large earthen cover,
         ideal for defense. To use, Sneak (Default: Shift) at an earth source and it
         will raise and launch towards your foe!'
-      Cooldown: 2000
+      Cooldown: 1500
       EarthBlocks: 5
       Damage: 4.5
       EntityCollisionRadius: 1.5
@@ -488,7 +488,7 @@ Abilities:
         a sand bendable block, then Left-Click in a direction to shoot a blast of
         sand!'
       Cooldown: 3000
-      Damage: 3.0
+      Damage: 5.0
       SourceRange: 8
       Range: 30
       MaxSandBlocks: 10
@@ -758,7 +758,7 @@ Abilities:
       Range: 10
       Snow: true
       SnowDuration: 5000
-      BendableSnow: false
+      BendableSnow: true
       Damage:
         Enabled: false
         Player: 1.0

@@ -407,7 +407,7 @@ Abilities:
       Cooldown: 10000
       MaxShots: 6
       Range: 20
-      Damage: 5.0
+      Damage: 4.0
       SourceGrabRange: 4
       SourceRegenDelay: 10000
       FireTicks: 2
@@ -546,7 +546,7 @@ Abilities:
       Power: 3
       Range: 100
       Warmup: 1500
-      Cooldown: 5000
+      Cooldown: 6000
       RegenTime: 10000
       EntityCollisionRadius: 1.3
       AbilityCollisionRadius: 1.3

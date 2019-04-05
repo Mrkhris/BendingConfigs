@@ -23,11 +23,11 @@ ExtraAbilities:
         MaximumSwingAngle: 15.0
       Grab:
         Cooldown: 2000
-        Range: 25
+        Range: 35
         Speed: 5.0
         PullSpeed: 0.5
       Slam:
         Cooldown: 1500
-        Range: 25
+        Range: 35
         Speed: 5.0
         Damage: 2.0

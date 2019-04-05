@@ -47,6 +47,8 @@ Properties:
       Pitch: 2
   Water:
     DynamicSourcing: true
+    FreezePlayerHead: false
+    FreezePlayerFeet: false
     CanBendWithWeapons: true
     IceBlocks:
     - ICE
@@ -461,6 +463,7 @@ Abilities:
         WaterManipulation:
           Damage: 2
         IceBlast:
+          Cooldown: 200
           Damage: 4
           Range: 40
         IceSpike:
@@ -480,8 +483,9 @@ Abilities:
             SlowPotency: 3
             SlowDuration: 90
         IceBullet:
+          Cooldown: 200
           Damage: 4
-          Range: 16
+          Range: 20
           MaxShots: 45
           ShootTime: 12000
         IceWave:
@@ -672,6 +676,7 @@ Abilities:
       CollisionRadius: 1.5
       Interval: 20
       Cooldown: 1500
+      AllowSnow: true
     IceSpike:
       Enabled: true
       Cooldown: 2000
@@ -877,6 +882,7 @@ Abilities:
       RevertSphere: true
       RevertSphereTime: 30000
     IceBullet:
+      ShotCooldown: 500
       Enabled: true
       Damage: 2
       Radius: 2.5
@@ -1071,7 +1077,7 @@ Abilities:
         Cooldown: 1000
     Combustion:
       Enabled: false
-      Cooldown: 10000
+      Cooldown: 6000
       BreakBlocks: false
       ExplosivePower: 1.0
       Damage: 4

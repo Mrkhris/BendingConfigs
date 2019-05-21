@@ -104,6 +104,12 @@ Properties:
     - GRASS
     - TALL_GRASS
     - CARVED_PUMPKIN
+    - ACACIA_log
+    - BIRCH_log
+    - DARK_OAK_log
+    - JUNGLE_log
+    - OAK_log
+    - SPRUCE_log
     SnowBlocks:
     - SNOW
     - SNOW_BLOCK
@@ -1312,10 +1318,14 @@ AddonAbilities:
       RainEnabled: false
     DustCloud:
       Cooldown: 4500
-      Duration: 3500
+      Duration: 1
       potDuration: 1500
       Radius: 5
 ExtraAbilities:
+  PhanaticD:
+    CombatRoll:
+      Cooldown: 6000
+      Duration: 1000
   Jacksonnn:
     EarthTrammel:
       Cooldown: 15000

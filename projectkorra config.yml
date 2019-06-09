@@ -386,8 +386,8 @@ Abilities:
           Wall:
             Height: 15
         EarthArmor:
-          Cooldown: 2000
-          GoldHearts: 6
+          Cooldown: 6500
+          GoldHearts: 4
         EarthBlast:
           Cooldown: 500
           Damage: 4

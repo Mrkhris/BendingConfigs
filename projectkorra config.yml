@@ -1261,7 +1261,7 @@ Abilities:
     AcrobatStance:
       Enabled: true
       Cooldown: 5000
-      Duration: 30000
+      Duration: 0
       ChiBlockBoost: 3
       Speed: 3
       Jump: 3
@@ -1287,7 +1287,7 @@ Abilities:
     WarriorStance:
       Enabled: true
       Cooldown: 5000
-      Duration: 30000
+      Duration: 0
       Strength: 1
       Resistance: -3
     QuickStrike:

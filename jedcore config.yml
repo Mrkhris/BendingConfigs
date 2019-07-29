@@ -232,7 +232,7 @@ Abilities:
         ideal for defense. To use, Sneak (Default: Shift) at an earth source and it
         will raise and launch towards your foe!'
       Cooldown: 1500
-      EarthBlocks: 5
+      EarthBlocks: 7
       Damage: 4.5
       EntityCollisionRadius: 1.5
       AbilityCollisionRadius: 1.5
@@ -287,7 +287,7 @@ Abilities:
       Range: 30
       PrepareRange: 7
       AffectingRadius: 2
-      Damage: 3.0
+      Damage: 5.0
       RemovalPolicy:
         SwappedSlots:
           Enabled: false
@@ -335,7 +335,7 @@ Abilities:
         Enabled: false
       RelaxedCollisions: true
       RemoveOnAnyDamage: false
-      Speed: 0.55
+      Speed: 0.65
       HeightTolerance: 3
       SpringStiffness: 0.35
     Fissure:

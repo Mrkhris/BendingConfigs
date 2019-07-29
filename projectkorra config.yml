@@ -932,11 +932,11 @@ Abilities:
       CanHitSelf: false
       SelectRange: 10
       Range: 30
-      Speed: 35
+      Speed: 40
       Revert: true
       Damage: 3
       Push: 0.3
-      Cooldown: 1500
+      Cooldown: 800
       DeflectRange: 3
       CollisionRadius: 0.8
     EarthDome:
@@ -1014,8 +1014,8 @@ Abilities:
         Range: 16
         DetectionRadius: 2.5
       Shoot:
-        Range: 25
-        AnimationInterval: 25
+        Range: 35
+        AnimationInterval: 20
       RequiredBendableBlocks: 11
       MaxBlocksToPassThrough: 3
       LiftAnimationInterval: 30

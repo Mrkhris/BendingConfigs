@@ -473,7 +473,7 @@ Abilities:
           Damage: 4
           Range: 40
         IceSpike:
-          Damage: 4
+          Damage: 4.0
           Range: 30
           Push: 0.9
           Height: 7
@@ -485,7 +485,7 @@ Abilities:
             Push: 1.2
           Blast:
             Range: 30
-            Damage: 3
+            Damage: 3.5
             SlowPotency: 3
             SlowDuration: 90
         IceBullet:
@@ -743,7 +743,7 @@ Abilities:
         Knockback: 1
         Knockup: 0.2
         MaxFreezeRadius: 7
-        Cooldown: 3000
+        Cooldown: 4000
         Interval: 30
         IceRevertTime: 60000
       Wall:
@@ -786,7 +786,7 @@ Abilities:
         MaxAttacks: 10
         MaxAlternateUsage: 50
         MaxIceShots: 8
-        Cooldown: 20000
+        Cooldown: 15000
         AllowPlantSource: true
         Lightning:
           Enabled: true
@@ -823,10 +823,10 @@ Abilities:
           Duration: 3500
       Freeze:
         Range: 20
-        Damage: 2
+        Damage: 1.5
       Spear:
         Range: 30
-        Damage: 3
+        Damage: 2.5
         DamageEnabled: true
         SphereRadius: 2
         Duration: 4500
@@ -925,8 +925,8 @@ Abilities:
       Enabled: true
       SelectRange: 10
       GoldHearts: 4
-      Cooldown: 7500
-      MaxDuration: 17500
+      Cooldown: 10000
+      MaxDuration: 20000
     EarthBlast:
       Enabled: true
       CanHitSelf: false
@@ -1015,7 +1015,7 @@ Abilities:
         DetectionRadius: 2.5
       Shoot:
         Range: 35
-        AnimationInterval: 20
+        AnimationInterval: 15
       RequiredBendableBlocks: 11
       MaxBlocksToPassThrough: 3
       LiftAnimationInterval: 30
@@ -1180,7 +1180,7 @@ Abilities:
       Damage: 6.0
       Range: 40.0
       ChargeTime: 2500
-      Cooldown: 5000
+      Cooldown: 7000
       StunChance: 0.8
       StunDuration: 6.0
       MaxArcAngle: 2.5
@@ -1526,20 +1526,20 @@ ExtraAbilities:
       TravelDistance: 20.0
   NickC1211:
     PlantBlast:
-      Cooldown: 1000
+      Cooldown: 3000
       Range: 30
-      Damage: 2
+      Damage: 4
     Whip:
-      Cooldown: 2000
+      Cooldown: 3500
       Range: 14
       Damage: 4
-      Speed: 1.0
+      Speed: 2.0
       Swim:
         Disabled: true
     Sprout:
       Cooldown: 3000
       Range: 20
-      Damage: 3
+      Damage: 4
       Speed: 1.3
   Soringaming&Moon:
     Air:

@@ -609,7 +609,7 @@ Abilities:
         Player: 1.0
         Mob: 2.0
       FireDuration: 500
-      Range: 10
+      Range: 7
       Avatar:
         FireEnabled: true
       Melt:
@@ -755,7 +755,7 @@ Abilities:
       Duration: 3000
       Particles: 3
       FrostDuration: 5000
-      Range: 10
+      Range: 7
       Snow: true
       SnowDuration: 5000
       BendableSnow: true
@@ -787,11 +787,11 @@ Abilities:
         Sneak (Default: Shift) to start pulling water out the air until you form claws
         at your finger tips, then attack an enemy to slow them down and do a bit of
         damage!'
-      Cooldown: 6000
-      ChargeTime: 1000
+      Cooldown: 4000
+      ChargeTime: 500
       SlowDuration: 5000
       Damage: 3.0
-      Range: 20
+      Range: 30
       Throwable: true
     IceWall:
       Enabled: true

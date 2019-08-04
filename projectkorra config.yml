@@ -325,18 +325,18 @@ Abilities:
       Air:
         AirBlast:
           Push:
-            Entities: 4.5
-            Self: 4.0
+            Entities: 2.5
+            Self: 2.5
         AirSpout:
           Height: 26
         AirSuction:
-          Push: 3.5
+          Push: 2.5
         AirSwipe:
           Cooldown: 1500
           Damage: 4.5
           Push: 1.0
           Range: 24
-          Radius: 3
+          Radius: 1
         AirBurst:
           ChargeTime: 1000
           Damage: 3
@@ -355,7 +355,7 @@ Abilities:
         AirSweep:
           Damage: 6
           Range: 21
-          Knockback: 4
+          Knockback: 2.5
         Twister:
           Range: 24
           Height: 12
@@ -521,8 +521,8 @@ Abilities:
       Particles: 6
       Cooldown: 500
       Push:
-        Self: 2.5
-        Entities: 3.5
+        Self: 2.0
+        Entities: 1.5
       CanFlickLevers: false
       CanOpenDoors: false
       CanPressButtons: false
@@ -569,7 +569,7 @@ Abilities:
       Range: 20
       SelectRange: 10
       Radius: 2
-      Push: 2.5
+      Push: 1.5
       Cooldown: 500
       Particles: 6
       SelectParticles: 6
@@ -577,7 +577,7 @@ Abilities:
       Enabled: true
       Damage: 2
       Range: 14
-      Radius: 2
+      Radius: 1
       Push: 0.5
       Arc: 16
       Speed: 25
@@ -644,7 +644,7 @@ Abilities:
       Speed: 1.4
       Range: 14
       Damage: 3
-      Knockback: 3.5
+      Knockback: 1.6
       Cooldown: 6000
   Water:
     Passive:
@@ -906,7 +906,7 @@ Abilities:
         Enabled: true
     Catapult:
       Enabled: true
-      Cooldown: 7000
+      Cooldown: 5000
       StageTimeMult: 2.0
       Angle: 45
       CancelWithAngle: false

@@ -7,7 +7,7 @@ Abilities:
     SpinDamage: 3
     ShootSpeed: 1.7
     SpinSpeed: 6
-    MaxRange: 25
+    MaxRange: 20
   EarthDrag:
     CanTargetEntity: false
     Cooldown: 1000

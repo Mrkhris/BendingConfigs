@@ -754,7 +754,7 @@ Abilities:
       Cooldown: 15000
       Duration: 3000
       Particles: 3
-      FrostDuration: 5000
+      FrostDuration: 3000
       Range: 7
       Snow: true
       SnowDuration: 5000

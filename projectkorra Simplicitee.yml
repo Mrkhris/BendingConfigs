@@ -20,7 +20,7 @@ Abilities:
   FireDisc:
     Damage: 2
     Range: 25
-    Cooldown: 1500
+    Cooldown: 2000
     Controllable: true
     RevertCutBlocks: true
     DropCutBlocks: false

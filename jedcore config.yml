@@ -231,7 +231,7 @@ Abilities:
       Description: 'This move enables an earthbender to create a large earthen cover,
         ideal for defense. To use, Sneak (Default: Shift) at an earth source and it
         will raise and launch towards your foe!'
-      Cooldown: 1500
+      Cooldown: 4500
       EarthBlocks: 7
       Damage: 4.5
       EntityCollisionRadius: 1.5
@@ -283,11 +283,11 @@ Abilities:
         a small piece of earth will come up from the ground and move towards your
         target to deal damage and knock them back. Additionally, hold Sneak to control
         the flow of the line!'
-      Cooldown: 3000
+      Cooldown: 4000
       Range: 30
       PrepareRange: 7
       AffectingRadius: 2
-      Damage: 5.0
+      Damage: 4.0
       RemovalPolicy:
         SwappedSlots:
           Enabled: false
@@ -487,8 +487,8 @@ Abilities:
         damaging them and temporarily blinding them! Just Sneak (Default: Shift) on
         a sand bendable block, then Left-Click in a direction to shoot a blast of
         sand!'
-      Cooldown: 3000
-      Damage: 5.0
+      Cooldown: 4000
+      Damage: 3.0
       SourceRange: 8
       Range: 30
       MaxSandBlocks: 10
@@ -509,9 +509,9 @@ Abilities:
         Enabled: true
         Description: Fire balls of magma at your enemy!
         MaxShots: 3
-        ImpactDamage: 7.5
+        ImpactDamage: 4.0
         SearchRange: 4
-        Cooldown: 8000
+        Cooldown: 11000
         ShotCooldown: 500
         RequireLavaFlow: false
         PlayerCollisions: true
@@ -602,7 +602,7 @@ Abilities:
         and light together as one and allow the breath of color" and can be brought
         back to normal by saying "Split the bond of fire and light and set the color
         free".'
-      Cooldown: 5000
+      Cooldown: 7000
       Duration: 3000
       Particles: 3
       Damage:

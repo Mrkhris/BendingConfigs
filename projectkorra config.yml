@@ -1008,7 +1008,7 @@ Abilities:
         Speed: 0.72
         Duration: 3000
         AnimationInterval: 0
-        DetectionRadius: 3.5
+        DetectionRadius: 2.0
       Grab:
         Enabled: true
         Range: 16
@@ -1096,8 +1096,8 @@ Abilities:
       Range: 20
       CollisionRadius: 1.0
       Knockback: 0.3
-      Damage: 3
-      Cooldown: 1500
+      Damage: 2
+      Cooldown: 2000
       Dissipate: false
       FireTicks: 2
       SmokeParticleRadius: 0.3
@@ -1200,7 +1200,7 @@ Abilities:
       Width: 4
       Duration: 5000
       Damage: 1
-      Cooldown: 11000
+      Cooldown: 7000
       Interval: 250
       DamageInterval: 500
       FireTicks: 2
@@ -1234,7 +1234,7 @@ Abilities:
     JetBlaze:
       Enabled: true
       Speed: 1.1
-      Damage: 4
+      Damage: 2
       Cooldown: 15000
       FireTicks: 2
       Duration: 5000
@@ -1345,10 +1345,10 @@ ExtraAbilities:
   xNuminousx:
     FireJab:
       HitRadius: 0.5
-      Cooldown: 5000
+      Cooldown: 6000
       Range: 10
       Speed: 1.2
-      Damage: 5
+      Damage: 4
       Controllable: true
       Ignite: true
       FireTicks: 2
@@ -1409,6 +1409,10 @@ ExtraAbilities:
       MaxDuration: 0
       Speed: 0.7
   Prride:
+    Erosion:
+      Cooldown: 5000
+      RevertTime: 5000
+      MaxRadius: 5
     VineManipulation:
       Ensnare:
         Cooldown: 7000
@@ -1430,7 +1434,7 @@ ExtraAbilities:
       Duration: 3000
       CollisionRadius: 2
     FireUppercut:
-      Cooldown: 4500
+      Cooldown: 6000
       Damage: 4
       FireTicks: 2
       Radius: 3
@@ -1489,10 +1493,10 @@ ExtraAbilities:
       PlaySound: true
       BroadcastMessage: '&b&l%target%''s &e&lbending was restored by &b&l%caster%&e&l!'
     SandBullet:
-      Cooldown: 2000
-      Range: 60
+      Cooldown: 5000
+      Range: 45
       Speed: 1.6
-      Damage: 5
+      Damage: 4
   StrangeOne101:
     BloodRip:
       ChargeTime: 5000

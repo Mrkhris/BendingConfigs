@@ -701,8 +701,8 @@ Abilities:
       IgnoreWalls: false
       RequireBound: true
       Distance: 6
-      HoldTime: 10000
-      Cooldown: 4000
+      HoldTime: 4000
+      Cooldown: 10000
     BloodPuppet:
       Enabled: true
       Description: This very high-level bloodbending ability lets a master control
@@ -836,10 +836,10 @@ Abilities:
         Enabled: true
         Description: Create a swirling mass of water that drags any entity that enters
           it to the bottom of the whirlpool.
-        Cooldown: 25000
+        Cooldown: 18000
         Duration: 15000
-        MaxDepth: 5
-        Range: 10
+        MaxDepth: 3
+        Range: 30
       WaterFlow:
         Enabled: true
         Description: 'Some Waterbenders have managed to create torrents of water much
@@ -933,7 +933,7 @@ Abilities:
   Passives:
     WallRun:
       Enabled: true
-      Cooldown: 6000
+      Cooldown: 1000
       Duration: 20000
       Particles: true
       Air: true

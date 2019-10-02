@@ -1409,6 +1409,108 @@ ExtraAbilities:
       MaxDuration: 0
       Speed: 0.7
   Prride:
+    Spirits:
+      Combos:
+        Dark:
+          Pandemonium:
+            Enabled: true
+            Cooldown: 18000
+            Duration: 10500
+            Radius: 10
+            Pull: 0.02
+            EffectAmplifier: 1
+            EffectDuration: 3
+        Light:
+          Sanctuary:
+            Enabled: true
+            Cooldown: 18000
+            Duration: 9500
+            Radius: 8
+            Repel: 0.3
+            Damage: 3
+            EffectDuration: 2.5
+            EffectAmplifier: 1
+      Abilities:
+        Dark:
+          Corruption:
+            Disabled: false
+            Cooldown: 12000
+            RevertTime: 18000
+            Radius: 6
+            Duration: 15
+            EffectDuration: 2
+            EffectAmplifier: 1
+          DarkBeam:
+            Disabled: false
+            Cooldown: 7000
+            ChargeTime: 4000
+            Duration: 2000
+            Damage: 2
+            Range: 20
+          Onslaught:
+            Disabled: false
+            Cooldown: 7500
+            Duration: 1
+            Damage: 3
+            Speed: 0.4
+            EffectAmplifier: 1
+            EffectDuration: 1.5
+        Light:
+          Enlightenment:
+            Disabled: false
+            Cooldown: 6500
+            ChargeTime: 4.5
+            EnlightenRadius: 1.5
+            EffectAmplifier: 2
+            EffectDuration: 7
+            AbsorptionHealth: 3
+          LightBeam:
+            Disabled: false
+            Cooldown: 7000
+            ChargeTime: 4000
+            Duration: 2000
+            Damage: 2
+            Range: 20
+          Wish:
+            Disabled: false
+            Cooldown: 7000
+            ChargeTime: 4500
+            WaitDuration: 15000
+            HealAmount: 4
+        Neutral:
+          Float:
+            Disabled: false
+            Cooldown: 7000
+            FloatDuration: 4500
+            FloatPower: 1
+      Passives:
+        Dark:
+          DarkAlliance:
+            Enabled: true
+          SinisterAura:
+            Enabled: true
+            Cooldown: 500
+            Range: 3
+            EffectAmplifier: 1
+            EffectDuration: 3
+            Chance: 0.01
+        Light:
+          SuperLuck:
+            Enabled: true
+            LuckDuration: 7777777
+            LuckAmplifier: 7
+          WishfulThinking:
+            Enabled: true
+            EffectDuration: 6
+            EffectAmplifier: 0
+            Chance: 0.01
+    PlantBurst:
+      Cooldown: 6500
+      Damage: 2
+      GrabSpeed: 0.3
+      RevertTime: 5000
+      SelectRange: 20
+      Radius: 10
     Erosion:
       Cooldown: 5000
       RevertTime: 5000

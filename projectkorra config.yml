@@ -1414,9 +1414,9 @@ ExtraAbilities:
         Dark:
           Pandemonium:
             Enabled: true
-            Cooldown: 18000
-            Duration: 10500
-            Radius: 10
+            Cooldown: 20000
+            Duration: 5000
+            Radius: 6
             Pull: 0.02
             EffectAmplifier: 1
             EffectDuration: 3
@@ -1424,8 +1424,8 @@ ExtraAbilities:
           Sanctuary:
             Enabled: true
             Cooldown: 18000
-            Duration: 9500
-            Radius: 8
+            Duration: 5000
+            Radius: 6
             Repel: 0.3
             Damage: 3
             EffectDuration: 2.5

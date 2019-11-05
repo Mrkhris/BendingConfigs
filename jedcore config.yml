@@ -431,7 +431,7 @@ Abilities:
       MaxFragments: 10
       Damage: 4.0
     MetalHook:
-      Enabled: true
+      Enabled: false
       Description: 'This ability lets a Metalbender bend metal into grappling hooks,
         allowing them to easily manouver terrain. To use this ability, the user must
         either have Iron in their inventory or be wearing an Iron/Chainmail Chestplate.

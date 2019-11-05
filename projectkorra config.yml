@@ -104,12 +104,18 @@ Properties:
     - GRASS
     - TALL_GRASS
     - CARVED_PUMPKIN
-    - ACACIA_log
-    - BIRCH_log
-    - DARK_OAK_log
-    - JUNGLE_log
-    - OAK_log
-    - SPRUCE_log
+    - ACACIA_WOOD
+    - BIRCH_WOOD
+    - DARK_OAK_WOOD
+    - JUNGLE_WOOD
+    - OAK_WOOD
+    - SPRUCE_WOOD
+    - ACACIA_LOG
+    - BIRCH_LOG
+    - DARK_OAK_LOG
+    - JUNGLE_LOG
+    - OAK_LOG
+    - SPRUCE_LOG
     SnowBlocks:
     - SNOW
     - SNOW_BLOCK
@@ -522,11 +528,12 @@ Abilities:
       Cooldown: 500
       Push:
         Self: 2.0
-        Entities: 1.5
+        Entities: 2.0
       CanFlickLevers: false
       CanOpenDoors: false
       CanPressButtons: false
       CanCoolLava: true
+      LegacyAffect: true
     AirBurst:
       Enabled: true
       FallThreshold: 10
